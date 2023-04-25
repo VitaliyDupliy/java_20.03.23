@@ -24,7 +24,7 @@ public class TestApp {
 		for (GeometricFigure x : f) {
 			totalArea += x.areasCalc();
 		}
-		System.out.println("Tota area for elements of " + f.getClass().getSimpleName() + " = " + totalArea);
+		System.out.println("Total area for elements of " + f.getClass().getSimpleName() + " = " + totalArea);
 		return totalArea;
 	}
 
