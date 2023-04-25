@@ -1,6 +1,6 @@
 package ua.hillel.hw8.task0;
 
-import java.text.DecimalFormat;
+
 
 public class Triangle extends GeometricFigure implements CalculatedAreas{
 	
