@@ -3,7 +3,7 @@ package ua.hillel.hw8.ather;
 public class Cat implements Participant{
 	
 	final double runable = 150;
-	final double jumpable = 1.0;
+	final double jumpable = 1.1;
 
 	@Override
 	public String run() {
