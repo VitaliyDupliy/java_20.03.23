@@ -1,5 +1,10 @@
 package ua.hillel.hw8.ather;
 
-public class Participant {
+public interface Participant {
+	
+	
+	
+	String run();
+	String jump();
 
 }
