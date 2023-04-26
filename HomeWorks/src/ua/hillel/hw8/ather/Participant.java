@@ -6,5 +6,8 @@ public interface Participant {
 	
 	String run();
 	String jump();
+	double getRunable();
+	double getJumpable();
+	
 
 }

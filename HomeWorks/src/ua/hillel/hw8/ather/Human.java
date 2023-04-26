@@ -10,7 +10,7 @@ public class Human implements Participant{
 	public String run() {
 		
 		
-		return "has ran";
+		return " has ran";
 		
 	}
 
@@ -20,4 +20,14 @@ public class Human implements Participant{
 		
 	}
 
+	@Override
+	public double getRunable() {
+		return runable ;
+	}
+
+	@Override
+	public double getJumpable() {
+		return jumpable;
+	}
+	
 }

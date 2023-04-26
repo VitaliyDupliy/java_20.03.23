@@ -7,12 +7,23 @@ public class Robot implements Participant {
 
 	@Override
 	public String run() {
-		return "has ran";
+		return " has ran";
 	}
 
 	@Override
 	public String jump() {
 		return " has jumped over ";
+	}
+	
+	@Override
+	public double getRunable() {
+
+		return runable;
+	}
+
+	@Override
+	public double getJumpable() {
+		return jumpable;
 	}
 
 }
