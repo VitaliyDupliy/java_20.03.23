@@ -18,7 +18,8 @@ public class ArrayValueCalculator {
 					
 					sumAllElements += Integer.parseInt(array[i][j]);
 					} catch (NumberFormatException e) {
-						throw new ArrayDataException("Некорректные данные в array[" + i + "]" + "[" + j + "]" + "->\"" + array[i][j]+ "\"") ;
+						throw new ArrayDataException("Некорректные данные в array[" + i + "]" + "[" 
+					+ j + "]" + "->\"" + array[i][j]+ "\"") ;
 					}
 				}
 			}
